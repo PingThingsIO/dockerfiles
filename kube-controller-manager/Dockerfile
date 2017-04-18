@@ -1,4 +1,4 @@
-FROM armv7/armhf-ubuntu_core
+FROM armv7/armhf-ubuntu_core:16.04
 
 ARG KUBERNETES_VERSION=v1.6.1
 
