@@ -4,7 +4,7 @@ ARG KUBERNETES_VERSION=v1.6.1
 
 ENV DEBIAN_FRONTEND=noninteractive \
     container=docker \
-    KUBERNETES_DOWNLOAD_ROOT=https://storage.googleapis.com/kubernetes-release/release/${KUBERNETES_VERSION}/bin/linux/amd64 \
+    KUBERNETES_DOWNLOAD_ROOT=https://storage.googleapis.com/kubernetes-release/release/${KUBERNETES_VERSION}/bin/linux/arm \
     KUBERNETES_COMPONENT=kube-controller-manager
 
 RUN set -x \
